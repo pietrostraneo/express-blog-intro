@@ -10,8 +10,17 @@ module.exports = {
                     html += `
                         <div>
                         <h2>${title}</h2>
+                        <img width="150" src="/${image}"/>
                         <p>${content}</p>
-                        </div>
+                        <b>Tags:</b>
+                        <ul>
+                    `
+                    tags.forEach(t => {
+                        html += `<li>${t}</li>`
+                    })
+                    html += `
+                    </ul>
+                    </div>
                     `
                 });
                 html += `</main>`;
