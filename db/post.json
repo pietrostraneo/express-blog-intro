@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Primo Post",
+        "content": "Questo è il contenuto del primo post.",
+        "image": "images/example.jpg",
+        "tags": [
+            "tag1",
+            "tag2"
+        ]
+    },
+    {
+        "title": "Secondo Post",
+        "content": "Questo è il contenuto del secondo post.",
+        "image": "images/example.jpg",
+        "tags": [
+            "tag3",
+            "tag4"
+        ]
+    },
+    {
+        "title": "Terzo Post",
+        "content": "Questo è il contenuto del terzo post.",
+        "image": "images/example.jpg",
+        "tags": [
+            "tag5",
+            "tag6"
+        ]
+    },
+    {
+        "title": "Quarto Post",
+        "content": "Questo è il contenuto del quarto post.",
+        "image": "images/example.jpg",
+        "tags": [
+            "tag7",
+            "tag8"
+        ]
+    },
+    {
+        "title": "Quinto Post",
+        "content": "Questo è il contenuto del quinto post.",
+        "image": "images/example.jpg",
+        "tags": [
+            "tag9",
+            "tag10"
+        ]
+    }
+]
