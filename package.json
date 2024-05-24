@@ -1,0 +1,14 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "express firt repo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
