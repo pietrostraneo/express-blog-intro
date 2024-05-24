@@ -4,6 +4,9 @@ module.exports = {
     get: (req, res) => {
         const posts = readJSON('post');
         res.format({
+            json: () => {
+                res.json(posts);
+            },
             html: () => {
                 let html = `<main>`;
                 posts.forEach(({ title, content, image, tags }) => {
@@ -25,15 +28,12 @@ module.exports = {
                 });
                 html += `</main>`;
                 res.send(html);
-            },
-            json: () => {
-                res.json(posts);
             }
         })
     },
     post: (req, res) => {
         const post = readJSON('post');
-        writeJSON('pizze', [...post, req.body]);
+        writeJSON('post', [...post, req.body]);
         res.send('Post effettuato correttamente')
     }
 }
