@@ -10,6 +10,8 @@ app.use(express.json());
 app.get('/', index);
 app.get('/posts', posts.get);
 
+app.post('/posts', posts.post)
+
 app.listen(port, () => {
     console.log(`Server in ascolto su http://localhost:${port}`);
 })

@@ -30,5 +30,10 @@ module.exports = {
                 res.json(posts);
             }
         })
+    },
+    post: (req, res) => {
+        const post = readJSON('post');
+        writeJSON('pizze', [...post, req.body]);
+        res.send('Post effettuato correttamente')
     }
 }
