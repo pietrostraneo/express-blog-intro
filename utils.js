@@ -15,5 +15,6 @@ const writeJSON = (fileName, data) => {
 
 module.exports = {
     readJSON,
-    writeJSON
+    writeJSON,
+    path
 }
